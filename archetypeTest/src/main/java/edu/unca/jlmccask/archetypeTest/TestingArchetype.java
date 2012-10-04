@@ -20,7 +20,7 @@ package edu.unca.jlmccask.archetypeTest;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class archetypeTest extends JavaPlugin {
+public class TestingArchetype extends JavaPlugin {
 
 	//ClassListeners
 	private final archetypeTestCommandExecutor commandExecutor = new archetypeTestCommandExecutor(this);

@@ -24,9 +24,9 @@ import org.bukkit.entity.Player;
 
 public class archetypeTestCommandExecutor implements CommandExecutor {
 
-    private archetypeTest plugin;
+    private TestingArchetype plugin;
 
-    public archetypeTestCommandExecutor(archetypeTest plugin) {
+    public archetypeTestCommandExecutor(TestingArchetype plugin) {
         this.plugin = plugin;
     }
 
