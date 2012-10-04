@@ -23,8 +23,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class TestingArchetype extends JavaPlugin {
 
 	//ClassListeners
-	private final archetypeTestCommandExecutor commandExecutor = new archetypeTestCommandExecutor(this);
-	private final archetypeTestEventListener eventListener = new archetypeTestEventListener(this);
+	private final TestingArchetypeCommandExecutor commandExecutor = new TestingArchetypeCommandExecutor(this);
+	private final TestingArchetypeEvenListener eventListener = new TestingArchetypeEvenListener(this);
 	//ClassListeners
 
 	public void onDisable() {

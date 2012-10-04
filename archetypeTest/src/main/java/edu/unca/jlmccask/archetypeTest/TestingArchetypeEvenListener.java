@@ -25,11 +25,11 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 
-public class archetypeTestEventListener implements Listener {
+public class TestingArchetypeEvenListener implements Listener {
 
 	private TestingArchetype plugin;
 
-	public archetypeTestEventListener(TestingArchetype plugin) {
+	public TestingArchetypeEvenListener(TestingArchetype plugin) {
 		this.plugin = plugin;
 	}
 
